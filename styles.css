@@ -1,0 +1,46 @@
+@charset 'utf-8';
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+	background-color: #45515a;
+}
+
+.date-wrap {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+.date-block {
+	width: 30%;
+	height: 200px;
+	float: left;
+	background-color: #ccc;
+	padding: 20px;
+	margin: 10px 0;
+    font-size: 100px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.date-block p {
+	margin: 25px 0;
+}
+
+#day {
+	background-color: #ff0066;
+}
+
+#month {
+	background-color: #ff3385;
+}
+
+#year {
+	background-color: #ff66a3;
+}
